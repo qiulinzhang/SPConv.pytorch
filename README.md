@@ -12,7 +12,7 @@ This repo provides Pytorch implementation of IJCAI 2020 paper [Split to Be Slim:
 # Introduction of SPConv
 ## Redundancy in Feature Maps
 
-<div align=center><img width='500' height='400' src="https://github.com/qiulinzhang/SPConv.pytorch/blob/master/images/redundant_feature_maps.png"/></div>
+<div align=center><img width='400' height='300' src="https://github.com/qiulinzhang/SPConv.pytorch/blob/master/images/redundant_feature_maps.png"/></div>
 
 ## SPConv Module
 
@@ -20,7 +20,7 @@ This repo provides Pytorch implementation of IJCAI 2020 paper [Split to Be Slim:
 
 
 ## Performance
-outperform state-of-the-art baselines in both accuracy and **inference time on GPU**, with FLOPs and parameters dropped sharply.
+**Outperforms STOA baselines in both accuracy and inference time on GPU, with FLOPs and parameters dropped sharply.**
 ### Small Scale Classification
 <div align=center><img src="https://github.com/qiulinzhang/SPConv.pytorch/blob/master/images/cifar_10.png"/></div>
 
