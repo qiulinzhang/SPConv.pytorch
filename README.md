@@ -11,9 +11,14 @@ This repo provides Pytorch implementation of IJCAI 2020 paper [Split to Be Slim:
 
 # Introduction of SPConv
 - Redundancy in Feature Maps
+
 ![redundant_feature_maps](https://github.com/qiulinzhang/SPConv.pytorch/blob/master/images/redundant_feature_maps.png)
+
 - SPConv Module
+
 ![spconv_module](https://github.com/qiulinzhang/SPConv.pytorch/blob/master/images/spconv_module.png)
+
 - Performance
+
 ![cifar_10](https://github.com/qiulinzhang/SPConv.pytorch/blob/master/images/cifar_10.png)
 ![imagenet](https://github.com/qiulinzhang/SPConv.pytorch/blob/master/images/imagenet.png)
