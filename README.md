@@ -3,6 +3,8 @@
 
 This repo provides Pytorch implementation of IJCAI 2020 paper [Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution](https://arxiv.org/abs/2006.12085)
 
+Pretrained models will be released soon.
+
 # Requirements
 - Python 3
 - Pytorch 1.1
