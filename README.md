@@ -22,7 +22,7 @@ Pretrained models will be released soon.
 
 
 ## Performance
-**Outperforms STOA baselines in both accuracy and inference time on GPU, with FLOPs and parameters dropped sharply.**
+**Outperforms SOTA baselines in both accuracy and inference time on GPU, with FLOPs and parameters dropped sharply.**
 ### Small Scale Classification
 <div align=center><img src="https://github.com/qiulinzhang/SPConv.pytorch/blob/master/images/cifar_10.png"/></div>
 
