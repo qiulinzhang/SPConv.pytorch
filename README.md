@@ -28,3 +28,14 @@ Pretrained models will be released soon.
 
 ### Large Scale Classification
 <div align=center><img src="https://github.com/qiulinzhang/SPConv.pytorch/blob/master/images/imagenet.png"/></div>
+
+##Citation
+If you find this work or code is helpful in your research, please cite:
+```
+@inproceedings{zhang2020spconv,
+  title={Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution},
+  author={Zhang, Qiulin and Jiang, Zhuqing and Lu, Qishuo and Han, Jia'nan and Zeng, Zhengxin and Gao, Shang-Hua and Men, Aidong},
+  booktitle={International Joint Conference on Artificial Intelligence (IJCAI)},
+  year={2020}
+}
+```
