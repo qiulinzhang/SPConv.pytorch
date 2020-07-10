@@ -18,6 +18,7 @@ Pretrained models will be released soon.
 
 ## Abstract
 We reveal that many feature maps within a layer share similar but not identical patterns. However, it is difficult to identify if features with similar patterns are redundant or contain essential details. Therefore, instead of directly removing uncertain redundant features, we propose a **sp**lit based convolutional operation, namely **SPConv**, to tolerate features with similar patterns but require less computation. 
+
 Specifically, we split input feature maps into the representative part and the uncertain redundant part, where intrinsic information is extracted from the representative part through relatively heavy computation while tiny hidden details in the uncertain redundant part are processed with some light-weight operation.
 
 ## SPConv Module
