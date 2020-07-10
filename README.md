@@ -181,7 +181,7 @@ Specifically, we split input feature maps into the representative part and the u
     <td class="tg-c3ow">76.26%</td>
     <td class="tg-c3ow">93.05%</td>
     <td class="tg-c3ow">1.23 ms</td>
-    <td class="tg-baqh">(model)[]</td>
+    <td class="tg-baqh">(model)[https://bupteducn-my.sharepoint.com/:u:/g/personal/qiulinzhang_bupt_edu_cn/Eacma1q0fspOgDrOHTtLhT8BHUCKCVCNJl-QY3iuMHa5qg?e=5RTyaO]</td>
   </tr>
   <tr>
     <td class="tg-c3ow">HetConv-ResNet50-P4</td>
@@ -203,7 +203,7 @@ Specifically, we split input feature maps into the representative part and the u
     <td class="tg-c3ow">75.95%</td>
     <td class="tg-c3ow">92.99%</td>
     <td class="tg-c3ow">1.19 ms</td>
-    <td class="tg-baqh">(model)[]</td>
+    <td class="tg-baqh">(model)[https://bupteducn-my.sharepoint.com/:u:/g/personal/qiulinzhang_bupt_edu_cn/ERYv3or59alFqGJ-P6ahrNsBgq7mEfg7BO2spoptdnYyww?e=Ls6aTZ]</td>
   </tr>
   <tr>
     <td class="tg-c3ow">SPConv-ResNet50-α1/8</td>
@@ -214,7 +214,7 @@ Specifically, we split input feature maps into the representative part and the u
     <td class="tg-c3ow">75.40%</td>
     <td class="tg-c3ow">92.77%</td>
     <td class="tg-c3ow">1.17 ms</td>
-    <td class="tg-baqh">[model]()</td>
+    <td class="tg-baqh">[model](https://bupteducn-my.sharepoint.com/:u:/g/personal/qiulinzhang_bupt_edu_cn/EegfE1Ei2h5Kn9tpg47J_lsBQcXJHJodZs7EqMbZdl9U1g?e=OBeUju)</td>
   </tr>
   <tr>
     <td class="tg-c3ow">OctConv-ResNet50-α0.5†</td>
