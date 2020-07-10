@@ -1,7 +1,8 @@
 # SPConv.pytorch
 [ IJCAI-20 ] Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution
 
-This repo provides Pytorch implementation of IJCAI 2020 paper [Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution](https://arxiv.org/abs/2006.12085)
+This repo provides Pytorch implementation of IJCAI 2020 paper   
+[Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution](https://arxiv.org/abs/2006.12085)
 
 Pretrained models will be released soon.
 
@@ -158,7 +159,7 @@ Specifically, we split input feature maps into the representative part and the u
     <td class="tg-c3ow">Acc@1</td>
     <td class="tg-c3ow">Acc@5</td>
     <th class="tg-c3ow">Inference Time<br>on GPU</th>
-    <td class="tg-baqh">Pretrained</td>
+    <td class="tg-baqh">Download</td>
   </tr>
   <tr>
     <td class="tg-c3ow">ResNet50-Baseline</td>
