@@ -180,7 +180,7 @@ Specifically, we split input feature maps into the representative part and the u
     <td class="tg-c3ow">76.26%</td>
     <td class="tg-c3ow">93.05%</td>
     <td class="tg-c3ow">1.23 ms</td>
-    <td class="tg-baqh">SPConv-α1/2</td>
+    <td class="tg-baqh">(model)[]</td>
   </tr>
   <tr>
     <td class="tg-c3ow">HetConv-ResNet50-P4</td>
@@ -202,7 +202,7 @@ Specifically, we split input feature maps into the representative part and the u
     <td class="tg-c3ow">75.95%</td>
     <td class="tg-c3ow">92.99%</td>
     <td class="tg-c3ow">1.19 ms</td>
-    <td class="tg-baqh">SPConv-α1/4</td>
+    <td class="tg-baqh">(model)[]</td>
   </tr>
   <tr>
     <td class="tg-c3ow">SPConv-ResNet50-α1/8</td>
@@ -213,7 +213,7 @@ Specifically, we split input feature maps into the representative part and the u
     <td class="tg-c3ow">75.40%</td>
     <td class="tg-c3ow">92.77%</td>
     <td class="tg-c3ow">1.17 ms</td>
-    <td class="tg-baqh">SPConv-α1/8</td>
+    <td class="tg-baqh">[model]()</td>
   </tr>
   <tr>
     <td class="tg-c3ow">OctConv-ResNet50-α0.5†</td>
