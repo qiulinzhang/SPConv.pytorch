@@ -4,9 +4,9 @@
 This repo provides Pytorch implementation of IJCAI 2020 paper   
 [Split to Be Slim: An Overlooked Redundancy in Vanilla Convolution](https://arxiv.org/abs/2006.12085)
 
-Pretrained models will be released soon.
 
 # Requirements
+Basic code is borrowed from <a href="https://docs.nvidia.com/deeplearning/dali/user-guide/docs/examples/use_cases/pytorch/resnet50/pytorch-resnet50.html">NVIDIA DALI tutorials</a>
 - Python 3
 - Pytorch 1.1
 - NVIDIA DALI for GPU dataloader 
