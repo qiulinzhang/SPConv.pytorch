@@ -45,7 +45,7 @@ class SPConv_3x3(nn.Module):
         out_3x3_pwc = self.pwc(x_3x3)
         out_3x3 = out_3x3_gwc + out_3x3_pwc
         out_3x3 = self.bn1(out_3x3)
-        out_3x3_ratio = self.avgpool_add_3(out_3x3).squeeze()
+        out_3x3_ratio = self.avgpool_add_3(out_3x3).squeeze(dim=3).squeeze(dim=2)
 
         # use avgpool first to reduce information lost
         if self.stride == 2:
@@ -53,7 +53,7 @@ class SPConv_3x3(nn.Module):
 
         out_1x1 = self.conv1x1(x_1x1)
         out_1x1 = self.bn2(out_1x1)
-        out_1x1_ratio = self.avgpool_add_1(out_1x1).squeeze()
+        out_1x1_ratio = self.avgpool_add_1(out_1x1).squeeze(dim=3).squeeze(dim=2)
 
         out_31_ratio = torch.stack((out_3x3_ratio, out_1x1_ratio), 2)
         out_31_ratio = nn.Softmax(dim=2)(out_31_ratio)
