@@ -11,7 +11,7 @@ def conv3x3(in_planes, out_planes, stride=1, groups=1, dilation=1):
     return nn.Conv2d(in_planes, out_planes, kernel_size=3, stride=stride,
                      padding=dilation, groups=groups, bias=False, dilation=dilation)
 class SPConv_3x3(nn.Module):
-    def __init__(self, inplanes, outplanes, stride=1, ratio=0.5, reduction=16):
+    def __init__(self, inplanes, outplanes, stride=1, ratio=0.5):
         super(SPConv_3x3, self).__init__()
         self.inplanes_3x3 = int(inplanes*ratio)
         self.inplanes_1x1 = inplanes - self.inplanes_3x3
@@ -120,7 +120,7 @@ class Bottleneck(nn.Module):
         self.conv1 = conv1x1(inplanes, width)
         self.bn1 = norm_layer(width)
         #self.conv2 = conv3x3(width, width, stride, groups, dilation)
-        self.conv2 = SelectFeatures_Conv_3_31_no_SF(inplanes=width, outplanes=width, stride=stride, ratio=0.5)
+        self.conv2 = SPConv_3x3(inplanes=width, outplanes=width, stride=stride, ratio=0.5)
         self.bn2 = norm_layer(width)
         self.conv3 = conv1x1(width, planes * self.expansion)
         self.bn3 = norm_layer(planes * self.expansion)
