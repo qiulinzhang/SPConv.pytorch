@@ -49,7 +49,7 @@ class SPConv_3x3(nn.Module):
 
         # use avgpool first to reduce information lost
         if self.stride == 2:
-            x_1x1_se = self.avgpool_s2_1(x_1x1_se)
+            x_1x1 = self.avgpool_s2_1(x_1x1)
 
         out_1x1 = self.conv1x1(x_1x1)
         out_1x1 = self.bn2(out_1x1)
